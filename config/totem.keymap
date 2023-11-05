@@ -71,7 +71,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp E      &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D      &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI
     &kp LCTRL   &kp Z       &kp X       &kp C      &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp BSLH
-                                      &lt SYM LALT &kp BSPC  &mt DEL            &kp RET  &lt SYM SPACE  &lt NAV ESC
+                                      &lt SYM LALT &kp BSPC  &kp DEL           &kp RET  &lt SYM SPACE  &lt NAV ESC
                         >;
                 };
 
@@ -80,10 +80,10 @@ label= "BASE"                              ;
 
                 nav_layer {
 // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-label= "NAVI"                              ;
+label= "NAV"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃           ┃    7      ┃     8     ┃     9     ┃     {     ┃   ┃     }     ┃  PG UP    ┃     8     ┃     9     ┃     +     ┃
+//             ┃           ┃    7      ┃     8     ┃     9     ┃     {     ┃   ┃     }     ┃  PG UP    ┃    UP     ┃     9     ┃     +     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃   SHIFT   ┃    4      ┃     5     ┃     6     ┃     [     ┃   ┃     ]     ┃   LEFT    ┃    UP     ┃   RIGHT   ┃     -     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
@@ -94,7 +94,7 @@ label= "NAVI"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp ESC     &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp LBRC        &kp RBRC    &kp PG_UP   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
+                &kp ESC     &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp LBRC        &kp RBRC    &kp PG_UP   &kp UP      &kp KP_N9   &kp KP_PLUS
                 &kp LSHFT   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp LBKT        &kp RBKT    &kp LEFT    &kp UP      &kp RIGHT   &kp KP_MINUS
     &trans      &kp DEL     &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp LPAR        &kp RPAR    &kp PG_DN   &kp DOWN    &kp KP_N3   &kp KP_MULTIPLY &trans      
                                         &kp KP_N0   &trans      &trans          &mo ADJ     &trans      &trans      
