@@ -94,7 +94,7 @@ label= "NAVI"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp ESC     &bt KP_BT7  &kp KP_N8   &kp KP_N9   &kp LBRC        &kp RBRC    &kp PG_UP   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
+                &kp ESC     &bt KP_N7   &kp KP_N8   &kp KP_N9   &kp LBRC        &kp RBRC    &kp PG_UP   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
                 &kp LSHFT   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp LBKT        &kp RBKT    &kp LEFT    &kp UP      &kp RIGHT   &kp KP_MINUS
     &trans      &kp DEL     &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp LPAR        &kp RPAR    &kp PG_DN   &kp DOWN    &kp KP_N3   &kp KP_MULTIPLY &trans      
                                         &kp KP_N0   &trans      &trans          &mo ADJ     &kp trans   &trans      
