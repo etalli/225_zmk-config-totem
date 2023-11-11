@@ -7,7 +7,7 @@
 
 #define BASE 0
 #define LWR  1
-#define SYM  2
+#define RSE  2
 #define ADJ  3
 #define TVP1 4
 #define TVP2 5
@@ -71,7 +71,7 @@ label= "BASE"                              ;
                 &kp Q       &kp W       &kp E      &kp R       &kp T           &kp Y       &kp U       &kp I       &kp O       &kp P
                 &kp A       &kp S       &kp D      &kp F       &kp G           &kp H       &kp J       &kp K       &kp L       &kp SEMI
     &kp LCTRL   &kp Z       &kp X       &kp C      &kp V       &kp B           &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &mt RSHIFT BSLH
-                                      &lt SYM LALT &kp BSPC  &mt LGUI DEL      &kp RET  &lt SYM SPACE  &lt LWR ESC
+                                      &lt RSE LALT &kp BSPC  &mt LGUI DEL      &kp RET  &lt RSE SPACE  &lt LWR ESC
                         >;
                 };
 
@@ -104,9 +104,9 @@ label= "LWRV"                              ;
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 
-                sim_layer {
+                rse_layer {
 // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-label= "SYM"                               ;
+label= "RSEM"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     *     ┃     '     ┃     "     ┃
