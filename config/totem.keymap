@@ -46,7 +46,7 @@
                 , <&macro_tap &kp G &kp I &kp F>
                 ;
         };
-    };rans
+    };
 
         keymap {
                 compatible = "zmk,keymap";
