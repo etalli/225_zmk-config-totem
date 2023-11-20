@@ -40,8 +40,8 @@
             label = "email";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                <&macro_tap &kp k &kp a &kp z &kp u &kp m &kp o &kp t &kp o>
+            bindings 
+                = <&macro_tap &kp k &kp a &kp z &kp u &kp m &kp o &kp t &kp o>
                 ;
         };
     };
