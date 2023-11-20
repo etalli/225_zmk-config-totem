@@ -35,6 +35,20 @@
 };
 
 / {
+    macros {
+        email: email {
+            label = "email";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                <&macro_tap &kp k &kp a &kp z &kp u &kp m &kp o &kp t &kp o>
+                ;
+        };
+    };
+};
+
+
+/ {
      combos {
             compatible = "zmk,combos";
             combo_esc {
@@ -89,7 +103,7 @@ label= "LWR"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
                 &trans      &trans      &trans      &trans      &kp LBRC        &kp RBRC    &kp PG_UP   &kp UP      &kp LC(A)   &kp KP_PLUS
                 &trans      &trans      &trans      &trans      &kp LBKT        &kp RBKT    &kp LEFT    &kp DOWN    &kp RIGHT   &kp LC(V)
-  &zed_em_kay   &trans      &trans      &trans      &trans      &kp LPAR        &kp RPAR    &kp PG_DN   &trans      &kp LC(LA(DEL)) &kp KP_MULTIPLY &kp LC(LS(RIGHT))     
+  &zed_em_kay   &email      &trans      &trans      &trans      &kp LPAR        &kp RPAR    &kp PG_DN   &trans      &kp LC(LA(DEL)) &kp KP_MULTIPLY &kp LC(LS(RIGHT))     
                                         &trans      &trans      &trans          &mo ADJ     &kp LC(LS(3)) &trans      
                         >;
                 };
